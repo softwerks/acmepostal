@@ -1,0 +1,11 @@
+title: Acme Postal
+description: email
+url: https://www.acmepostal.com
+author:
+  name: Softwerks
+  url: https://www.softwerks.com
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
