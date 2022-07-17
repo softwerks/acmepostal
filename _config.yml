@@ -1,7 +1,2 @@
-title: Acme Postal
-description: Email.
-url: https://www.acmepostal.com
-
-plugins:
-  - jekyll-sitemap
-  - jemoji
+title: Acme Postal Service
+description: Email sent and delivered.
