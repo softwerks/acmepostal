@@ -4,4 +4,8 @@ title: Acme Postal Service
 description: Email sent and delivered. 📧
 ---
 
-# Acme Postal Service 📫
+<p style="font-size:2rem;">📫</p>
+
+# Acme Postal Service
+
+Email sent and delivered. 📧
