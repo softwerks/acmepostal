@@ -5,6 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title | default: site.title }}</title>
         <meta name="description" content="{{ page.description | default: site.description }}">
+        <style>
+            body {
+                margin 0;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            }
+        </style>
     </head>
     <body>
         {{ content }}
