@@ -6,9 +6,13 @@
         <title>{{ page.title | default: site.title }}</title>
         <meta name="description" content="{{ page.description | default: site.description }}">
         <style>
+            html {
+                height: -webkit-fill-available;
+            }
             body {
                 margin: 0;
-                height: 100vh;
+                min-height: 100vh;
+                min-height: -webkit-fill-available;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
