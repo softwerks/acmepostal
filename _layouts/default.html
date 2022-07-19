@@ -6,10 +6,12 @@
         <title>{{ page.title | default: site.title }}</title>
         <meta name="description" content="{{ page.description | default: site.description }}">
         <style>
+            html {
+                height: 100%;
+            }
             body {
                 margin: 0;
-                height: 100vh;
-                height: -webkit-fill-available;
+                height: 100%;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
